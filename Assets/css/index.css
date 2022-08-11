@@ -1,0 +1,53 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: indigo; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 11px 20px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+  }
+  
+  #myBtn:hover {
+    background-color: rgb(94, 0, 161); /* Add a dark-grey background on hover */
+  }
+
+html {
+    scroll-behavior: smooth;
+}
+
+#logo {
+    height: 45px;
+}
+
+.subIcons {
+    height: 120px;
+}
+
+.navLinks {
+    list-style: none;
+    color: black;
+}
+
+.navLinks:hover {
+    cursor: pointer;
+    border-bottom: 2px solid indigo;
+}
+
+.footerIcon {
+    height: 25px;
+    padding: 0px 5px;
+}
+
+#credit {
+    margin-bottom: 0px;
+}
