@@ -65,7 +65,25 @@ html {
 #credit {
     margin-bottom: 0px;
 }
+.card-body{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+text-align: center;
+}
+@media only screen and (max-width: 510px) {
 
-.facilitesHead {
-    width: 12px;    
+    .subFooterElement {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+
+    .navLinks:hover {
+        cursor: pointer;
+    }
 }
