@@ -1,6 +1,13 @@
 /* *{
     font-family: 'Poppins', sans-serif;
 } */
+
+body {
+    background: linear-gradient(to bottom, #060064 0%, #035abb 38%, #04c5ed 100%);
+    margin: 0;
+    padding: 0;
+}
+
 #myBtn {
     display: none;
     /* Hidden by default */
@@ -43,6 +50,7 @@ html {
     height: 45px;
 }
 
+
 .subIcons {
     height: 100px;
 }
@@ -72,6 +80,8 @@ align-items: center;
 justify-content: center;
 text-align: center;
 }
+
+
 @media only screen and (max-width: 510px) {
 
     .subFooterElement {
