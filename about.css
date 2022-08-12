@@ -1,0 +1,14 @@
+*{
+    font-family: 'Baloo Tamma 2', cursive;
+}
+.banner{
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    font-family: 'Baloo Tamma 2', cursive;
+    box-sizing: border-box;
+    height: 300px;
+    background-image: url(http://www.kelavanidham.org/assets-design/frontend/new/img/sardar.jpg?v=0.02);
+    background-size: 100%;
+    margin-bottom: 25px;
+}

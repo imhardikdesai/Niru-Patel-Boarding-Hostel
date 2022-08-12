@@ -1,6 +1,6 @@
-/* *{
-    font-family: 'Poppins', sans-serif;
-} */
+*{
+    font-family: 'Baloo Tamma 2', cursive;
+}
 
 body {
     background: linear-gradient(to bottom, #060064 0%, #035abb 38%, #04c5ed 100%);
@@ -69,7 +69,12 @@ html {
     height: 25px;
     padding: 0px 5px;
 }
-
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
 #credit {
     margin-bottom: 0px;
 }
