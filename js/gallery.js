@@ -1,6 +1,16 @@
 let gallery = document.getElementById('gallery');
 
+function removeClasses() {
+    let buttons = document.getElementsByClassName('btn');
+    for (let i = 0; i < buttons.length; i++) {
+        buttons[i].classList.remove('active');
+    }
+}
+
 function filterSelection(cateogry, btnID) {
+    removeClasses();
+    document.getElementById(`${btnID}`).classList.add('active');
+
     fetch('json/images.json')
         .then(response => response.json())
         .then(data => {
@@ -25,8 +35,9 @@ function filterSelection(cateogry, btnID) {
 }
 
 
-byDefault = function (btnID) {
-    document.getElementById(`${btnID}`).classList.add('active');
+byDefault = function () {
+    removeClasses();
+    document.getElementById("1").classList.add('active');
 
     fetch('json/images.json')
         .then(response => response.json())
