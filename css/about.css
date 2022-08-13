@@ -16,6 +16,7 @@ body {
     background-image: url(https://user-images.githubusercontent.com/87645745/184467875-66bca5bc-5e3e-4ec3-b990-2668f7733285.jpg);
     background-size: 100%;
     margin-bottom: 25px;
+    background-repeat: no-repeat;
 }
 
 /* footer {
