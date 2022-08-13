@@ -1,7 +1,12 @@
-*{
+* {
     font-family: 'Baloo Tamma 2', cursive;
 }
-.banner{
+
+body {
+    background-color: white;
+}
+
+.banner {
     font-size: 14px;
     line-height: 1.42857143;
     color: #333;
@@ -11,4 +16,29 @@
     background-image: url(https://user-images.githubusercontent.com/87645745/184467875-66bca5bc-5e3e-4ec3-b990-2668f7733285.jpg);
     background-size: 100%;
     margin-bottom: 25px;
+}
+
+/* footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+} */
+
+/* .Quota {
+    border: 2px solid red;
+} */
+.Quota figure {
+    background-color: #e0e6ec;
+    padding: 21px 17px;
+    border: 2px solid green;
+    text-justify: auto;
+    width: 70vw;
+}
+
+@media only screen and (max-width: 510px) {
+
+    .Quota figure {
+        width: 95vw;
+    }
 }
