@@ -50,7 +50,10 @@ html {
     height: 45px;
 }
 
-
+.shadowHeading{
+    color: #d9d9d9;
+    text-shadow: #2e2e2e 0 4px 5px;
+}
 .subIcons {
     height: 100px;
 }
