@@ -1,0 +1,40 @@
+{
+    "image": [
+        {
+            "imgSource": "Assets/demo1.jpg",
+            "imgCateogry": "Infrastructure"
+        },
+        {
+            "imgSource": "Assets/demo2.jpg",
+            "imgCateogry": "Food"
+        },
+        {
+            "imgSource": "Assets/demo3.jpg",
+            "imgCateogry": "Sports"
+        },
+        {
+            "imgSource": "Assets/demo1.jpg",
+            "imgCateogry": "Library"
+        },
+        {
+            "imgSource": "Assets/demo2.jpg",
+            "imgCateogry": "Food"
+        },
+        {
+            "imgSource": "Assets/demo3.jpg",
+            "imgCateogry": "Campus Experience"
+        },
+        {
+            "imgSource": "Assets/demo1.jpg",
+            "imgCateogry": "Infrastructure"
+        },
+        {
+            "imgSource": "Assets/demo2.jpg",
+            "imgCateogry": "Campus Experience"
+        },
+        {
+            "imgSource": "Assets/demo3.jpg",
+            "imgCateogry": "Sports"
+        }
+    ]
+}

@@ -1,6 +1,7 @@
 #myBtnContainer {
     background-color: #e0e6ec;
     padding: 12px;
+    margin-bottom: 10px;
 }
 
 /* footer {
@@ -13,3 +14,6 @@
 #galleryHeading {
     font-size: 2.5rem;
 }
+/* .imageCard{
+    margin: 12px;
+} */
