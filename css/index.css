@@ -1,4 +1,4 @@
-*{
+* {
     font-family: 'Baloo Tamma 2', cursive;
 }
 
@@ -50,10 +50,11 @@ html {
     height: 45px;
 }
 
-.shadowHeading{
+.shadowHeading {
     color: #d9d9d9;
     text-shadow: #2e2e2e 0 4px 5px;
 }
+
 .subIcons {
     height: 100px;
 }
@@ -72,6 +73,7 @@ html {
     height: 25px;
     padding: 0px 5px;
 }
+
 /* footer{
     position: fixed;
     left: 0;
@@ -81,12 +83,13 @@ html {
 #credit {
     margin-bottom: 0px;
 }
-.card-body{
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
-text-align: center;
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 
@@ -105,3 +108,15 @@ text-align: center;
         cursor: pointer;
     }
 }
+
+@media only screen and (min-height: 1550px) {
+
+    footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+    }
+
+}
+
