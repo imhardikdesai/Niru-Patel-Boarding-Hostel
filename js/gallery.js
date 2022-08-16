@@ -21,7 +21,9 @@ function filterSelection(cateogry, btnID) {
                     str +=
                         `<div class="col-md-3 m-2">
                             <div class="card">
+                            <a href="${image[key].imgSource}">
                                 <img class="card-img-top img-thumbnail" src="${image[key].imgSource}" alt="Hostel Images">
+                            </a>    
                                 <div class="card-body">
                                     <p class="card-text">${image[key].imgCateogry}</p>
                                 </div>
@@ -48,7 +50,9 @@ byDefault = function () {
                 str +=
                     `<div class="col-md-3 m-2">
                     <div class="card">
-                        <img class="card-img-top" src="${image[key].imgSource}" alt="Card image cap">
+                         <a href="${image[key].imgSource}">
+                            <img class="card-img-top" src="${image[key].imgSource}" alt="Card image cap">
+                          </a> 
                         <div class="card-body">
                             <p class="card-text">${image[key].imgCateogry}</p>
                         </div>
