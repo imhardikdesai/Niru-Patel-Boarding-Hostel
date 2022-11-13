@@ -26,3 +26,9 @@ function preLoader() {
   loading.style.display = "none";
   main.style.display = "block";
 }
+
+
+// counter 
+function cb(response) {
+  document.getElementById('visits').innerText = response.value;
+}
