@@ -5,6 +5,10 @@
         align-items: center;
         text-align: center;
     }
+
+    .lds-ripple {
+        left: 42%;
+    }
 }
 
 @media only screen and (max-width: 992px) {
@@ -24,4 +28,3 @@
     }
 
 }
-
