@@ -11,7 +11,7 @@ function filterSelection(cateogry, btnID) {
     removeClasses();
     document.getElementById(`${btnID}`).classList.add('active');
 
-    fetch('json/images.json')
+    fetch('https://raw.githubusercontent.com/imhardikdesai/JSON-Data/main/Niru-Patel-Boarding-Hostel/images.json')
         .then(response => response.json())
         .then(data => {
             let image = data.image;
@@ -41,7 +41,7 @@ byDefault = function () {
     removeClasses();
     document.getElementById("1").classList.add('active');
 
-    fetch('json/images.json')
+    fetch('https://raw.githubusercontent.com/imhardikdesai/JSON-Data/main/Niru-Patel-Boarding-Hostel/images.json')
         .then(response => response.json())
         .then(data => {
             let image = data.image;
